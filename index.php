@@ -1,3 +1,11 @@
+<?php
+
+session_start();
+
+require_once("./bbdd.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

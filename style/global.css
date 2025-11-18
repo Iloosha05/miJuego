@@ -9,4 +9,5 @@ body {
     background: #7B8B6F; /* el color del fondo general */
     max-width: 100%; /* para que la página ocupe toda la pantalla*/
     font-family: 'Press Start 2P', monospace;
+    color: #333;
 }

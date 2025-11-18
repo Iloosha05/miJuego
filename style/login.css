@@ -1,0 +1,24 @@
+.login {
+    padding: 1rem;
+}
+
+.login h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.login input {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 20%;
+    height: 30px;        
+    font-size: 0.8rem;
+    background-color: #FFEA79; 
+    border: 2px solid #ccc; /* ponemos un borde  */
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.login input:last-child{
+    width: 10%;
+}
