@@ -36,8 +36,36 @@ require_once("./bbdd.php");
                         <p>Oro: <span id="oro">50</span></p>
                         <p>Pociones: <span id="pociones">2</span></p>
                     </div>
-                    <div>
-                        
+                    <div class="controladores">
+                        <div class="row1">
+                            <a class="btn n">
+                                <img class="normal" src="./img/contr_n.svg" alt="norte">
+                                <img class="hover" src="./img/contr_n_h.svg" alt="norte">
+                            </a>
+                        </div>
+
+                        <div class="row2">
+                            <a class="btn o">
+                                <img class="normal" src="./img/contr_o.svg" alt="oeste">
+                                <img class="hover" src="./img/contr_o_h.svg" alt="oeste">
+                            </a>
+
+                            <a class="btn c">
+                                <img src="./img/contr_c.svg" alt="centro">
+                            </a>
+
+                            <a class="btn e">
+                                <img class="normal" src="./img/contr_e.svg" alt="este">
+                                <img class="hover" src="./img/contr_e_h.svg" alt="este">
+                            </a>
+                        </div>
+
+                        <div class="row3">
+                            <a class="btn s">
+                                <img class="normal" src="./img/contr_s.svg" alt="sur">
+                                <img class="hover" src="./img/contr_s_h.svg" alt="sur">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

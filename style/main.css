@@ -26,6 +26,10 @@ main {
     width: 70%;
 }
 
+.derecho{
+    width: 100%;
+}
+
 .ficha{
     font-size: 0.9rem;
 }
@@ -37,6 +41,48 @@ main {
 
 .ficha span{
     color: #FFEA79;
+}
+
+.controladores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row1{
+    margin-top: 1rem;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+row3{
+    margin-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+}
+
+.btn img{
+    width: 30px;
+}
+
+.btn .hover {
+    display: none;
+}
+
+.btn:hover .normal {
+    display: none;
+}
+
+.btn:hover .hover {
+    display: block;
 }
 
 .bajo {
@@ -120,6 +166,14 @@ main {
 
     .arriva {
         padding-bottom: 0.7rem;
+    }
+
+    .row1 {
+        margin-top: 1rem;
+    }
+
+    .controladores img {
+        width: 20px;
     }
 
     .bajo {
