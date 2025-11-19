@@ -17,6 +17,11 @@ header {
     height: auto;
 }
 
+.logo-pequeno {
+    display: none;
+    max-width: 50px;
+}
+
 nav {
     display: flex;
     flex-wrap: wrap; /* para el diseño más flexible */
@@ -45,4 +50,19 @@ nav ul li a {
 
 nav ul li a:hover { 
     text-decoration: underline; /* quitamos el diseño por defecto */
+}
+
+@media (max-width: 768px) {
+    .logo{
+        display: none;
+        width: 0px;
+    }
+
+    .logo-pequeno{
+        display: block;
+    }
+
+    nav ul li a {
+        font-size: 0.8rem; 
+    }
 }

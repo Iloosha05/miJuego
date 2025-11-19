@@ -6,8 +6,9 @@ main {
 .content{
     border: 2px solid #ccc; /* ponemos un borde  */
     border-radius: 4px; 
-    margin: 2rem;
-    margin-top: 7rem;
+    margin: 7rem auto 1rem auto;
+    width: 90%; 
+    max-width: 50rem;
 }
 
 .arriva {
@@ -31,6 +32,7 @@ main {
 
 .ficha p{
     margin-bottom: 0.5rem;
+    font-size: 0.85rem;
 }
 
 .ficha span{
@@ -105,5 +107,28 @@ main {
 
 .icon:last-child{
     margin-right: 0px;
+}
+
+@media (max-width: 768px) {
+    .derecho h3{
+        font-size: 0.9rem;
+    }
+
+    .ficha p{
+        font-size: 0.6rem;
+    }
+
+    .arriva {
+        padding-bottom: 0.7rem;
+    }
+
+    .bajo {
+        padding-top: 0;
+    }
+
+    .content h2 {
+        font-size: 0.9rem;
+        margin-bottom: 0.3rem;
+    }
 }
 

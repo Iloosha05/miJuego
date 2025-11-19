@@ -36,6 +36,9 @@ require_once("./bbdd.php");
                         <p>Oro: <span id="oro">50</span></p>
                         <p>Pociones: <span id="pociones">2</span></p>
                     </div>
+                    <div>
+                        
+                    </div>
                 </div>
             </div>
             <div class="bajo"> <!-- EL contenedor para la información de gameplay -->
