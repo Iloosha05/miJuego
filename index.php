@@ -81,22 +81,22 @@ require_once("./bbdd.php");
                 <div class="icon-bar"> <!-- El contenedor para los iconos -->
                     <a class="icon-btn play">
                         <img class="normal" src="./img/play2.svg" alt="ejecutar">
-                        <img class="hover" src="./img/play2_dark.svg" alt="ejecutar">
+                        <img class="hover" src="./img/play_hover.svg" alt="ejecutar">
                     </a>
 
                     <a class="icon-btn pause">
                         <img class="normal" src="./img/pause1.svg" alt="parar">
-                        <img class="hover" src="./img/pause1_dark.svg" alt="parar">
+                        <img class="hover" src="./img/pause_hover.svg" alt="parar">
                     </a>
 
                     <a class="icon-btn save">
                         <img class="normal" src="./img/save2.svg" alt="guardar">
-                        <img class="hover" src="./img/save2_dark.svg" alt="guardar">
+                        <img class="hover" src="./img/save_hover.svg" alt="guardar">
                     </a>
 
                     <a class="icon-btn load">
                         <img class="normal" src="./img/load2.svg" alt="parar">
-                        <img class="hover" src="./img/load2_dark.svg" alt="parar">
+                        <img class="hover" src="./img/load_hover.svg" alt="parar">
                     </a>
                 </div>
             </div>
