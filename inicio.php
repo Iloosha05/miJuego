@@ -1,13 +1,5 @@
-<?php
-
-session_start();
-
-require_once("./bbdd.php");
-
-?>
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,13 +12,15 @@ require_once("./bbdd.php");
 </head>
 <body>
     <header>
-        <?php require_once('./header.php'); ?>
+        <?php require_once('./header.php') ?>
     </header>
     <main>
-        <?php require_once('./game.php'); ?>
+        <div class="content">
+            
+        </div>
     </main>
     <footer>
-        <?php require_once('./footer.php'); ?>
+        <?php require_once('./footer.php') ?>
     </footer>
 </body>
 </html>
