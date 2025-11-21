@@ -16,7 +16,19 @@
     </header>
     <main>
         <div class="content">
-            
+            <div class="inicio">
+                <a class="button" href="./index.php">
+                    <button>
+                        Iniciar juego
+                    </button>
+                </a>
+                <button>
+                    Guardados
+                </button>
+                <button>
+                    Ajustes
+                </button>
+            </div>
         </div>
     </main>
     <footer>
