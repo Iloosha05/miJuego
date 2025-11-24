@@ -12,9 +12,12 @@
 </head>
 <body>
     <div class="content"> <!-- El contenedor general -->
-        <div class="arriva"> <!-- El volumen dónde van a aparecer imagen y fica -->
-            <img class="imagen" id="imagen" src="./img/tittle-image.png">
-            <div class="derecho">
+        <div class="upper"> <!-- El volumen dónde van a aparecer imagen y fica -->
+            <div class="upper-left">
+                <img class="imagen" id="imagen" src="./img/title.png" alt="Juego">
+                <img class="monster" src="./img/monster.png" alt="Monstruo">
+            </div>
+            <div class="upper-right">
                 <div class="ficha"> <!-- El campo de la ficha -->
                     <h3>Ficha</h3>
                     <p>Nombre: <span id="nombre">Jugador</span></p>
@@ -27,13 +30,13 @@
                 <a class="map-a" href="#"><img class="map" id="map" src="./img/map.svg" alt="mapa"></a>
             </div>
         </div>
-        <div class="bajo"> <!-- EL contenedor para la información de gameplay -->
-            <div class="bajo-left">
+        <div class="middle"> <!-- EL contenedor para la información de gameplay -->
+            <div class="middle-left">
                 <h2 id="locacion">Calle Lenin</h2>
                 <textarea id="texto-juego"></textarea>
             </div>
-            <div class="bajo-right">
-                <div class="controladores">
+            <div class="middle-right">
+                <div class="controllers">
                     <div class="row1">
                         <a class="btn n">
                             <img class="normal" src="./img/contr_n.svg" alt="norte">
@@ -62,14 +65,14 @@
                 </div>
             </div>
         </div>
-        <div class="botones"> <!-- El contenedor para los botones -->
-            <div class="botones-left">
-                <div class="accion"> <!-- El contenedor para los botones de acción -->
+        <div class="down"> <!-- El contenedor para los botones -->
+            <div class="down-left">
+                <div class="action"> <!-- El contenedor para los botones de acción -->
                     <button id="boton1">Botón-1</button>
                     <button id="boton2">Botón-2</button>
                 </div>
             </div>
-            <div class="botones-right"> 
+            <div class="down-right"> 
                 <div class="icon-bar"> <!-- El contenedor para los iconos -->
                     <a class="icon-btn play">
                         <img class="normal" src="./img/play2.svg" alt="ejecutar">
