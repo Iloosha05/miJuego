@@ -38,26 +38,26 @@
             <div class="middle-right">
                 <div class="controllers">
                     <div class="row1">
-                        <a class="btn n">
+                        <a class="btn n" onclick="moveNorth()">
                             <img class="normal" src="./img/contr_n.svg" alt="norte">
                             <img class="hover" src="./img/contr_n_h.svg" alt="norte">
                         </a>
                     </div>
                     <div class="row2">
-                        <a class="btn o">
+                        <a class="btn o" onclick="moveWest()">
                             <img class="normal" src="./img/contr_o.svg" alt="oeste">
                             <img class="hover" src="./img/contr_o_h.svg" alt="oeste">
                         </a>
                         <a class="btn c">
                             <img src="./img/contr_c.svg" alt="centro">
                         </a>
-                        <a class="btn e">
+                        <a class="btn e" onclick="moveEast()">
                             <img class="normal" src="./img/contr_e.svg" alt="este">
                             <img class="hover" src="./img/contr_e_h.svg" alt="este">
                         </a>
                     </div>
                     <div class="row3">
-                        <a class="btn s">
+                        <a class="btn s" onclick="moveSouth()">
                             <img class="normal" src="./img/contr_s.svg" alt="sur">
                             <img class="hover" src="./img/contr_s_h.svg" alt="sur">
                         </a>

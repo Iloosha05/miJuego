@@ -1,3 +1,18 @@
-function abrirLogin(){
-    let ventana = window.open("login.php", "Log in", "height=200, width=500");
+let x = 0;
+let y = 0;
+
+function moveNorth() { 
+    y++; 
+}
+
+function moveSouth() { 
+    y--; 
+}
+
+function moveEast() { 
+    x++; 
+}
+
+function moveWest() { 
+    x--; 
 }

@@ -9,6 +9,7 @@ header {
     max-height: 90px;
     background-color: blue; /* el color del fondo para el header */
     flex-wrap: wrap; /* para el diseño más flexible */
+    z-index: 999;
 }
 
 .logo {
